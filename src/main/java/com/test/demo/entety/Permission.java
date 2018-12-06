@@ -34,7 +34,7 @@ public class Permission {
         return String.format("%s:%s:%s:%s",
                 userId,
                 (network == null) ? STAR : network,
-                (organization == null)? STAR : organization,
+                (organization == null) ? STAR : organization,
                 permission);
     }
 

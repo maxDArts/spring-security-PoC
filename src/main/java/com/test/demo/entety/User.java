@@ -1,6 +1,9 @@
 package com.test.demo.entety;
 
-import lombok.*;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.ToString;
 import org.springframework.data.annotation.Id;
 
 import static lombok.AccessLevel.PRIVATE;
