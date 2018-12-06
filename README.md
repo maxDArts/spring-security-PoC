@@ -9,3 +9,5 @@ To run this project and test filtering you need to do the next steps
 * fill the login form with credential (for example: {login: user, password: pass} or {login: root, password: pass})
 
 For now, as you can see from Main.java, I created two different test users. One is admin (name: root, password: pass) and user (name: user, password: pass). Admin has access to any network and organization and user has READ access to net/org and WRITE access to /net/org2.
+
+Also, I created two endpoints GET /{network}/{organization}/read and GET /{network}/{organization}/write.
