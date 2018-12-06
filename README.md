@@ -1,5 +1,5 @@
 # spring-security Proof of Concept
-This test project describes how we can implement resource mangement according to our new rules (filter by /{**network**}/{**oganization**}/{resourse}) using spring security.
+This test project shows how we can implement resource mangement according to our new rules (filter by /{**network**}/{**oganization**}/{resourse}) using spring security.
 
 To run this project and test filtering you need to do the next steps
 * add the source code as maven project into your favorite IDE
