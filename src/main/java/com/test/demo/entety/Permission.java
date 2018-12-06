@@ -1,4 +1,4 @@
-package com.ololo.demo.entety;
+package com.test.demo.entety;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -6,10 +6,6 @@ import lombok.Setter;
 import lombok.ToString;
 import org.springframework.data.annotation.Id;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import static com.ololo.demo.entety.PermissionType.ALL;
 import static lombok.AccessLevel.PRIVATE;
 
 @Getter
@@ -51,7 +47,7 @@ public class Permission {
     }
 
     public boolean checkPermission(PermissionType type) {
-        return permission.equals(ALL) || permission.equals(type);
+        return permission.equals(PermissionType.ALL) || permission.equals(type);
     }
 
     private boolean check(String stored, String toCheck) {

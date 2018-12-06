@@ -1,6 +1,6 @@
-package com.ololo.demo.repository;
+package com.test.demo.repository;
 
-import com.ololo.demo.entety.User;
+import com.test.demo.entety.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<User, String> {

@@ -1,6 +1,6 @@
-package com.ololo.demo.repository;
+package com.test.demo.repository;
 
-import com.ololo.demo.entety.Permission;
+import com.test.demo.entety.Permission;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.List;

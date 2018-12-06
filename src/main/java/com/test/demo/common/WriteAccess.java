@@ -1,4 +1,4 @@
-package com.ololo.demo.common;
+package com.test.demo.common;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 

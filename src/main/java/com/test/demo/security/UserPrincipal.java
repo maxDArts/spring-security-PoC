@@ -1,7 +1,7 @@
-package com.ololo.demo.security;
+package com.test.demo.security;
 
-import com.ololo.demo.entety.Permission;
-import com.ololo.demo.entety.User;
+import com.test.demo.entety.Permission;
+import com.test.demo.entety.User;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.security.core.GrantedAuthority;

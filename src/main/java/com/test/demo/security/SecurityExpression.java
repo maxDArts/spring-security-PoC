@@ -1,6 +1,6 @@
-package com.ololo.demo.security;
+package com.test.demo.security;
 
-import com.ololo.demo.entety.PermissionType;
+import com.test.demo.entety.PermissionType;
 import org.springframework.security.access.expression.SecurityExpressionRoot;
 import org.springframework.security.access.expression.method.MethodSecurityExpressionOperations;
 import org.springframework.security.core.Authentication;

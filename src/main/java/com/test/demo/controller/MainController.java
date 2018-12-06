@@ -1,7 +1,7 @@
-package com.ololo.demo.controller;
+package com.test.demo.controller;
 
-import com.ololo.demo.common.ReadAccess;
-import com.ololo.demo.common.WriteAccess;
+import com.test.demo.common.ReadAccess;
+import com.test.demo.common.WriteAccess;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

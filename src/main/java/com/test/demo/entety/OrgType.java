@@ -1,4 +1,4 @@
-package com.ololo.demo.entety;
+package com.test.demo.entety;
 
 public enum  OrgType {
     NETWORK,

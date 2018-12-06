@@ -1,16 +1,15 @@
-package com.ololo.demo;
+package com.test.demo;
 
-import com.ololo.demo.entety.Permission;
-import com.ololo.demo.entety.PermissionType;
-import com.ololo.demo.entety.User;
-import com.ololo.demo.repository.OrganizationRepository;
-import com.ololo.demo.repository.PermissionRepository;
-import com.ololo.demo.repository.UserRepository;
+import com.test.demo.entety.Permission;
+import com.test.demo.entety.PermissionType;
+import com.test.demo.entety.User;
+import com.test.demo.repository.OrganizationRepository;
+import com.test.demo.repository.PermissionRepository;
+import com.test.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 
 import static org.springframework.security.crypto.factory.PasswordEncoderFactories.createDelegatingPasswordEncoder;
 
